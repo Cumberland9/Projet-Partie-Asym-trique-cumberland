@@ -1,7 +1,7 @@
 import streamlit as st
 import rsa
 
-st.title("Projet Cryptographie Asymétrique et MITM")
+st.title("Projet Cryptographie RSA et MITM")
 st.write("Simulation d'un échange sécurisé entre Alice et Bob, avec une tentative d'attaque par Eve.")
 
 # Génération des clés en arrière-plan (stockées dans la session pour ne pas les recréer à chaque clic)
